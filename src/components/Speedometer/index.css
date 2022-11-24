@@ -1,0 +1,61 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #07080c;
+  max-width: 768px;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.img {
+  width: 400px;
+}
+
+.speed-status {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.caution {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.btn-container {
+  width: 240px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 8px;
+  border-width: 0;
+  width: 100px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.apply-brake-btn {
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #cbd5e1;
+  color: #cbd5e1;
+}
